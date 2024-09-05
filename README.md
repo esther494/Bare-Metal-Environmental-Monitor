@@ -13,10 +13,11 @@ As the name suggests, this project primarily uses bare-metal programming to ensu
 ## Objectives
 The specific functions of this project include:
 - Collecting sensor data in the greenhouse (temperature, humidity, light, and moisture levels)
-- Wirelessly sending this data to your PC or Raspberry Pi for display
+- Sending this data to your PC or Raspberry Pi for display
 - Allowing the user to track and monitor the greenhouse environment, as well as the comprehensive weather data of the area
 
 ## Hardware Requirements
+- [STM32F401RE](https://www.st.com/en/microcontrollers-microprocessors/stm32f401re.html)
 - [ESP32-DevKitC](https://www.espressif.com/en/products/devkits/esp32-devkitc)
 - [Raspberry Pi 3 Model B+](https://www.raspberrypi.com/products/raspberry-pi-3-model-b-plus/)
 - [AM2320 Digital Temperature and Humidity Sensor](https://www.adafruit.com/product/3721)
@@ -28,12 +29,11 @@ The specific functions of this project include:
 - Raspberry Pi software is written in Python for data processing and a GUI user interface
 
 ## Project Design
-![image](https://github.com/user-attachments/assets/56b1b633-511a-42d8-bade-da8edc3ac2f2)
+![image](https://github.com/user-attachments/assets/f9c9020a-fa83-4c1b-ae0f-9ef772a26e65)
 
 ### Communication Protocols
 - I2C: Moisture sensor and temperature & humidity sensor
 - ADC: Light sensor
-- Wireless data transfer is done using WebSocket
 
 ### Hardware Connections
 ![image](https://github.com/user-attachments/assets/97cc0ad5-19d3-49e2-97f4-650222704cff)
