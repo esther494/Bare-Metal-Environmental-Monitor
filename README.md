@@ -36,5 +36,9 @@ The specific functions of this project include:
 - Wireless data transfer is done using WebSocket
 
 ### Hardware Connections
+![image](https://github.com/user-attachments/assets/97cc0ad5-19d3-49e2-97f4-650222704cff)
+
+
 
 ### Software Flow
+
